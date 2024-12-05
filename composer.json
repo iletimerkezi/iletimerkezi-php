@@ -1,0 +1,33 @@
+{
+    "name": "iletimerkezi/sdk",
+    "description": "İleti Merkezi PHP SDK",
+    "type": "library",
+    "require": {
+        "php": ">=7.4"
+    },
+    "suggest": {
+        "guzzlehttp/guzzle": "^7.0 - Alternative HTTP client implementation"
+    },
+    "autoload": {
+        "psr-4": {
+            "IletiMerkezi\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IletiMerkezi Teknik Ekibi",
+            "email": "destek@emarka.com.tr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "mockery/mockery": "^1.6"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
