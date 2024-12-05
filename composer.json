@@ -1,7 +1,21 @@
 {
-    "name": "iletimerkezi/sdk",
+    "name": "iletimerkezi/iletimerkezi-php",
     "description": "İleti Merkezi PHP SDK",
     "type": "library",
+    "keywords": [
+        "iletimerkezi",
+        "otp",
+        "verify",
+        "iys",
+        "sms",
+        "api",
+        "sdk",
+        "api-client",
+        "typescript",
+        "nodejs",
+        "javascript"
+    ],
+    "homepage": "https://github.com/iletimerkezi/iletimerkezi-php",
     "require": {
         "php": ">=7.4"
     },
